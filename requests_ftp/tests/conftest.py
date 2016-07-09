@@ -2,8 +2,9 @@
 import pytest
 import requests
 import requests_ftp
-from simple_ftpd import SimpleFTPServer
-from simple_proxy import ProxyServer
+
+from .simple_ftpd import SimpleFTPServer
+from .simple_proxy import ProxyServer
 import threading
 
 

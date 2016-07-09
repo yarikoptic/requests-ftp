@@ -13,7 +13,7 @@ import threading
 
 import requests
 
-from threadmgr import socketServer
+from .threadmgr import socketServer
 
 
 @contextlib.contextmanager
