@@ -9,7 +9,8 @@ python:
 
 sudo: false
 install:
-  - "pip install -U pip setuptools"
-  - "pip install ."
-  - "pip install -r test_requirements.txt"
-script: "py.test tests/"
+  - pip install -U pip setuptools
+  - pip install .
+  - pip install -r test_requirements.txt
+script:
+  - py.test requests_ftp
